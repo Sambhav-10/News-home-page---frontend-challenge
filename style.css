@@ -1,0 +1,137 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    
+}
+header{
+    
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100vw;
+    height: 8vh;
+    /* background-color: aqua; */
+    padding: 15px;
+    margin: 20px;
+    align-items: center;
+}
+.logo{
+width: 50%;
+margin:150px;
+
+}
+ul{
+    width: 50%;
+margin:150px;
+    display: flex;
+    gap: 30px;
+    
+}
+ul li{
+    list-style: none;
+    color: gray;
+    font-size: 18px;
+}
+section{
+    margin-top: 2vh;
+    height:70vh ;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    
+}
+main{
+    width: 70vw;
+    display: flex;
+    justify-content: end;
+    /* background-color: rgb(136, 147, 143); */
+}
+
+main img{
+    width: 50vw;
+    /* height: 40vh; */
+ 
+}
+main h1{
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-heading{
+    
+    width: 250px;
+}
+.main-content-subtext{
+    font-size: 20px;
+    width: 450px;
+    line-height: 24px;
+    margin: 10px;
+    color: gray;
+}
+button{
+    margin: 20px 0;
+    width:180px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: orangered;
+}
+aside{
+    width: 40vw;
+    height: 67vh;
+    color: white;
+    line-height:25px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10px;
+
+}
+aside div{
+    background-color: black;
+    padding: 25px;
+    width: 320px;
+    height: 100%;
+}
+aside div h1{
+    color: tomato;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+aside h3:hover{
+    color: tomato;   
+}
+h3{
+    font-weight: 600;
+    margin: 15px 0;
+    font-size: 20px;
+}
+hr{
+    margin: 30px 0;
+}
+aside p{
+    color: rgb(190, 188, 188);
+}
+
+footer{
+    margin:30px 150px ;
+    display: flex;
+    justify-content: space-around;
+}
+.cart{
+    display: flex;
+    width: 350px;
+}
+.cart img{
+    margin-right: 20px;
+}
+.cart-content{
+}
